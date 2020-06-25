@@ -37,7 +37,7 @@ describe('ResetPassword Page', () => {
     mockedAddToast.mockClear();
   });
 
-  it('should be able do reset the password', async () => {
+  it('should be able to reset the password', async () => {
     mockedSearch.mockImplementation(() => {
       return 'token-123';
     });
